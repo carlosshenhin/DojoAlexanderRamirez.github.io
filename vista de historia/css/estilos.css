@@ -148,13 +148,13 @@ a:hover {
     border-top: 1px solid gray;
 }
 
-.container {
+.container-T {
     padding-top: 111px;
     background: linear-gradient(rgb(10, 4, 4), rgba(46, 21, 21, 0.945));
 
 }
 
-.container .titulo-seccion {
+.container-T .titulo-seccion {
     font-size: 40px;
     color: #fff;
     text-align: center;
@@ -162,16 +162,142 @@ a:hover {
     border: 6px double #eaeaea;
 }
 
+.banner-dojo {
+    background: linear-gradient(rgb(54, 19, 19), rgba(29, 2, 2, 0.836));
+}
 
-h1{
-    padding-top: 400px;
-    padding-bottom:400px;
-    padding-left: 42%;
-    padding-right: 42%;
+.banner-dojo>.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.banner-dojo>.img-container>img {
+
+    padding-top: 20px;
+    padding-bottom: 0px;
+    width: 300px;
+    height: 310px;
+    box-shadow: 20px 20px 10px;
+}
+
+.container-kanji {
+    position: static;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -260px;
+    margin-right: 280px;
+    margin-left: 280px;
+    padding-bottom: 30px;
+
+
+}
+
+.container-kanji>.kanji {
+    background-color: #ffffff;
+    border: 6px double #eaeaea;
+    padding-bottom: 45px;
+    padding-top: 40px;
+    text-align: center;
+    width: 140px;
+    box-shadow: 20px 20px 10px;
+}
+
+.sensei{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    background-image: url('../imgs/dojo.jpg');
+    background-size: cover;
+    background-position: center
+}
+
+.sensei>.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -10px;
+    padding-bottom: 60px;
+}
+
+.sensei>.img-container >img{
+    width: 300px;
+    height: 450px;
+    border: #eaeaea ridge 6px;
+    box-shadow: 20px 20px 10px;
     
     
 }
 
+.sensei>.img-container>h2{
+    width: 300px;
+    height: 50px;
+    margin-top: 400px;
+    margin-left: -300px;
+    color: #eaeaea;
+    background-color: #000000;
+    position: relative;
+    text-align: center;
+    border: #eaeaea ridge 6px;
+}
+
+.sensei>.contenido-sensei{
+    border: #eaeaea ridge 6px;
+    background: linear-gradient(rgb(10, 4, 4), rgba(46, 21, 21, 0.945));
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+.sensei>.contenido-sensei>p{
+    text-align: center;
+    color: #eaeaea;
+}
+
+.historia-karate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(rgb(10, 4, 4), rgba(46, 21, 21, 0.945));
+}
+
+.historia-karate>.karate{
+    width: 90%;
+   
+}
+
+.historia-karate>.karate>h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    border-bottom: #eaeaea solid 2px;
+    text-align: center;
+    color: #eaeaea;
+}
+
+.historia-karate>.karate>p{
+    margin-bottom: 60px;
+    text-align: center;
+    color: #eaeaea;
+}
+
+.historia-karate > .okinawa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.historia-karate > .okinawa >img{
+    width: 600px;
+    height: 600px;
+    border: #eaeaea ridge 6px;
+    box-shadow: 20px 20px 10px;
+}
 
 footer {
 
@@ -221,8 +347,3 @@ footer .bottom-redes a:hover {
 
 
 }
-
-
-
-    
-
