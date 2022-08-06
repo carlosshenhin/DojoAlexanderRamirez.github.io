@@ -335,6 +335,57 @@ footer .bottom-redes a:hover {
 }
 
 
+@media all and (max-width: 1200px) {
+
+    .container-kanji {
+        position: static;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: -260px;
+        margin-right: 180px;
+        margin-left: 180px;
+        padding-bottom: 30px;
+    }
+
+
+}
+
+@media all and (max-width: 990px) {
+
+    .container-kanji {
+        position: static;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: -260px;
+        margin-right: 100px;
+        margin-left: 100px;
+        padding-bottom: 30px;
+    }
+
+
+}
+
+@media all and (max-width: 840px) {
+
+    .container-kanji {
+        position: static;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: -260px;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding-bottom: 30px;
+    }
+
+
+}
+
 @media all and (max-width: 800px) {
 
     .menu-bar-pc {
@@ -345,5 +396,155 @@ footer .bottom-redes a:hover {
         display: flex;
     }
 
+
+}
+
+@media all and (max-width: 740px) {
+
+    .container-kanji {
+        position: static;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: -260px;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-bottom: 30px;
+    }
+
+
+}
+
+@media all and (max-width: 660px) {
+
+    .historia-karate > .okinawa >img{
+        width: 400px;
+        height: 400px;
+        border: #eaeaea ridge 6px;
+        box-shadow: 20px 20px 10px;
+    }
+
+    .container-kanji>.kanji {
+        background-color: #ffffff;
+        border: 6px double #eaeaea;
+        padding-bottom: 45px;
+        padding-top: 40px;
+        text-align: center;
+        width: 100px;
+        box-shadow: 20px 20px 10px;
+    }
+
+}
+
+@media all and (max-width: 680px) {
+
+    .container-kanji {
+        position: static;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: -260px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-bottom: 30px;
+    }
+
+    .container-kanji>.kanji {
+        background-color: #ffffff;
+        border: 6px double #eaeaea;
+        padding-bottom: 45px;
+        padding-top: 40px;
+        text-align: center;
+        width: 80px;
+        box-shadow: 20px 20px 10px;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+
+    .banner-dojo>.img-container>img {
+
+        padding-top: 20px;
+        padding-bottom: 0px;
+        width: 250px;
+        height: 260px;
+        box-shadow: 20px 20px 10px;
+    }
+
+    .container-kanji {
+        position: static;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: -245px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding-bottom: 30px;
+    }
+
+    .container-kanji>.kanji {
+        background-color: #ffffff;
+        border: 6px double #eaeaea;
+        padding-bottom: 45px;
+        padding-top: 40px;
+        text-align: center;
+        width: 60px;
+        max-height: 260px;
+        box-shadow: 20px 20px 10px;
+    }
+
+}
+
+@media all and (max-width: 495px) {
+
+    .historia-karate > .okinawa >img{
+        width: 250px;
+        height: 250px;
+        border: #eaeaea ridge 6px;
+        box-shadow: 20px 20px 10px;
+    }
+
+}
+
+@media all and (max-width: 410px) {
+
+    .banner-dojo>.img-container>img {
+
+        padding-top: 20px;
+        padding-bottom: 0px;
+        width: 250px;
+        height: 260px;
+        box-shadow: 20px 20px 10px;
+        margin-bottom: 30px;
+    }
+
+    .container-kanji {
+        position: static;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: -245px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding-bottom: 30px;
+        display: none;
+    }
+
+    .container-kanji>.kanji {
+        background-color: #ffffff;
+        border: 6px double #eaeaea;
+        padding-bottom: 45px;
+        padding-top: 40px;
+        text-align: center;
+        width: 60px;
+        max-height: 260px;
+        box-shadow: 20px 20px 10px;
+        display: none;
+    }
 
 }
