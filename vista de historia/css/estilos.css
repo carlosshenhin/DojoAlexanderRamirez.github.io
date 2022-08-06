@@ -562,8 +562,8 @@ footer .bottom-redes a:hover {
         margin-top: 10px;
         text-align: center;
         position: relative;
-        border-bottom: #eaeaea ridge 6px;
         margin-bottom: 600px;
+        border-bottom: none;
     }
 
 }
@@ -604,7 +604,7 @@ footer .bottom-redes a:hover {
         margin-top: 10px;
         text-align: center;
         position: relative;
-        border-bottom: #eaeaea ridge 6px;
+        border-bottom: none;
         margin-bottom: 800px;
     }
 
@@ -615,7 +615,7 @@ footer .bottom-redes a:hover {
         margin-top: 10px;
         text-align: center;
         position: relative;
-        border-bottom: #eaeaea ridge 6px;
+        border-bottom: none;
         margin-bottom: 500px;
     }
 
@@ -688,8 +688,8 @@ footer .bottom-redes a:hover {
         margin-top: 10px;
         text-align: center;
         position: relative;
-        border-bottom: #eaeaea ridge 6px;
         margin-bottom: 900px;
+        border-bottom: none;
     }
 
     .historia-dojo.alexander .container h2{
@@ -699,8 +699,8 @@ footer .bottom-redes a:hover {
         margin-top: 10px;
         text-align: center;
         position: relative;
-        border-bottom: #eaeaea ridge 6px;
         margin-bottom: 600px;
+        border-bottom: none;
     }
 
     .historia-dojo.alexander .container p{
@@ -768,8 +768,8 @@ footer .bottom-redes a:hover {
         margin-top: 10px;
         text-align: center;
         position: relative;
-        border-bottom: #eaeaea ridge 6px;
         margin-bottom: 1050px;
+        border-bottom: none;
     }
 
     .historia-dojo.alexander .container h2{
@@ -779,8 +779,8 @@ footer .bottom-redes a:hover {
         margin-top: 10px;
         text-align: center;
         position: relative;
-        border-bottom: #eaeaea ridge 6px;
         margin-bottom: 700px;
+        border-bottom: none;
     }
 
     .historia-dojo.alexander .container p{
